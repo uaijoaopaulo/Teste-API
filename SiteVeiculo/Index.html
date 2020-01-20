@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>teste site</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    
+
+</head>
+<body class="container" ng-app="appModulo">
+
+    <div ng-controller="vController">
+        <h1>IT'S WORKING</h1> <br />
+        <input type="text" ng-model="teste" /> <br />
+        <b><label ng-bind="teste"></label></b> <br />
+    </div>
+
+    <script src="Scripts/jquery-3.0.0.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+
+    <!--controles aplicação-->
+    <script src="app/global/modulo.js"></script>
+    <script src="app/veiculo/veiculoRepository.js"></script>
+    <script src="app/veiculo/veiculoController.js"></script>
+
+</body>
+</html>
